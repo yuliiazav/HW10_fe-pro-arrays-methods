@@ -87,7 +87,7 @@ const rangeFilter = (from, to) => {
 const minPriceReducer = () => {
   return goods.reduce((accum, good) => {
     return Math.min(accum, good.price);
-  }, 0)
+  }, 6499)
 };
 console.log(minPriceReducer);
 
